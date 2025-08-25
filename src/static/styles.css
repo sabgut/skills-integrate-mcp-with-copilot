@@ -44,6 +44,8 @@ main {
   }
 }
 
+
+section {
   background-color: white;
   padding: 20px;
   border-radius: 5px;
@@ -53,6 +55,7 @@ main {
   margin-bottom: 0;
 }
 
+
 #activities-container {
   margin-top: 30px;
 }
@@ -60,7 +63,7 @@ main {
 #signup-container {
   margin-bottom: 0;
 }
-}
+
 
 
 #signup-container {
@@ -77,6 +80,7 @@ main {
   border-radius: 5px;
   cursor: pointer;
   transition: background-color 0.2s;
+}
 .register-btn:hover {
   background-color: #388e3c;
 }
@@ -93,19 +97,11 @@ main {
     width: 100%;
     font-size: 16px;
   }
-}
-}
-
 .activity-card h4 {
   margin-bottom: 10px;
   color: #0066cc;
 }
 
-.activity-card p {
-  margin-bottom: 8px;
-}
-
-/* New styles for participants section */
 .participants-container {
   margin-top: 15px;
   padding-top: 12px;
